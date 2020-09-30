@@ -36,5 +36,5 @@ Además puedes buscar y compartir en Facebook la canción.
 ##  Bluetooth
 Al ingresar en esta parte se activará el bluetooth sino lo tienes activado y hará un busqueda en la zona para encontrar dispositivos visibles. Te mostrará una lista con si dirección MAC nombre y si esta vinculado
 
-Cámara
+##  Cámara
 Toma un foto y compartela en Facebook falto esa parte del video ahora lo envio.
