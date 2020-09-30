@@ -2,7 +2,7 @@
 PruebaRookMotion
 
 
-Autenticación
+## Autenticación
 Existen 2 activities principales:
 LoginActivity y MainActivity (HOME). En el MainActivity Estan Implementados 4 Fragmentos. HOME, y las 3 funciones siguiente. Fragmento para Bluetooth, Buscar Canciones y compartirlas ,   y tomar foto y compartirla por facebook.
 
@@ -16,7 +16,7 @@ passsword:    youyouyou
 Sugiero que antes de loguearte cierres sesión en tu chrome o en tu app de Facebook.
 Puedes ingresar al perfil que te mande desde tu app de facebook o navegador y  ver lo que has pubicado para corroborar que la app jala bien.
 
-API REST.
+##  API REST.
 Lyrics.OVH es un servicio simple de búsqueda de letras de canciones basados en una
 consulta abierta por Artista o Título. El servicio de API se respalda en información de
 Deezer, entre otras fuentes, para encontrar las coincidencias musicales relacionadas con
@@ -33,7 +33,7 @@ View
 
 Además puedes buscar y compartir en Facebook la canción.
 
-Bluetooth
+##  Bluetooth
 Al ingresar en esta parte se activará el bluetooth sino lo tienes activado y hará un busqueda en la zona para encontrar dispositivos visibles. Te mostrará una lista con si dirección MAC nombre y si esta vinculado
 
 Cámara
