@@ -4,7 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".Vistas.Activities.LoginActivity"
+    android:background="@drawable/fondo">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/russo_one"
+
+        android:padding="8dp"
+        android:text="@string/rookmtion"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
@@ -15,9 +35,10 @@
         android:paddingBottom="10dp"
 
         android:layout_margin="30dp"
-        app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintStart_toStartOf="parent"
         />
 
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sdkfacebook.Vistas.Fragmentos.HomeFragment"
+        android:label="Bienvenido"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_paraPeticionesFragment"
+            app:destination="@id/paraPeticionesFragment"
+            app:enterAnim="@anim/anim_inicio"
+            app:exitAnim="@anim/anim_final" />
+        <action
+            android:id="@+id/action_homeFragment_to_bluetoothDiscoveryFragment"
+            app:destination="@id/bluetoothDiscoveryFragment"
+            app:enterAnim="@anim/anim_inicio"
+            app:exitAnim="@anim/anim_final" />
+        <action
+            android:id="@+id/action_homeFragment_to_camaraFragment"
+            app:destination="@id/camaraFragment"
+            app:enterAnim="@anim/anim_inicio"
+            app:exitAnim="@anim/anim_final" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/paraPeticionesFragment"
+        android:name="com.example.sdkfacebook.Vistas.Fragmentos.APIRestFragment"
+        android:label="@string/fragment_api"
+        tools:layout="@layout/fragment_api_rest" />
+
+    <fragment
+        android:id="@+id/bluetoothDiscoveryFragment"
+        android:name="com.example.sdkfacebook.Vistas.Fragmentos.BluetoothDiscoveryFragment"
+        android:label="Busca "
+        tools:layout="@layout/fragment_bluetooth_discovery" />
+    <fragment
+        android:id="@+id/camaraFragment"
+        android:name="com.example.sdkfacebook.Vistas.Fragmentos.CamaraFragment"
+        android:label="Cámara"
+        tools:layout="@layout/fragment_camara" />
+
+</navigation>

@@ -1,25 +1,21 @@
-package com.example.sdkfacebook;
+package com.example.sdkfacebook.Vistas.Activities;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.sdkfacebook.R;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
-import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
-import java.util.Arrays;
-
 public class LoginActivity extends AppCompatActivity {
 
-    private LoginButton loginButton;
     private CallbackManager callbackManager;
 
     @Override
@@ -34,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
     private void initViews() {
         callbackManager = CallbackManager.Factory.create();
 
-        loginButton = findViewById(R.id.login_button);
+        LoginButton loginButton = findViewById(R.id.login_button);
         //loginButton.setPublishPermissions();
         //loginButton.setPublishPermissions("pages_manage_posts");
         //LoginManager.getInstance().logInWithPublishPermissions(
@@ -45,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 irActivityHome();
+                //Toast.makeText(LoginActivity.this, "Operación cancelada", Toast.LENGTH_SHORT).show();
             }
 
             @Override

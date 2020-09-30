@@ -15,6 +15,14 @@
     <string name="login_failed">"Login failed"</string>
     <string name="facebook_user">facebook User</string>
     <string name="cerrar_sesi_n">cerrar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="fragment_api">API LYRICS</string>
+    <string name="rookmtion">RookMotion</string>
+
+    <string name="solicitar_permisos">Es necesario activar los permisos</string>
+    <string name="encuentra_esa_n_canci_n_y_n_compartela">Encuentra esa \n canción y \n compartela!</string>
+    <string name="encuentra_ndispositivos_n_bluetooth">Encuentra \ndispositivos \n Bluetooth</string>
 
 </resources>
